@@ -21,6 +21,7 @@ JUnit 5
 * `com.ss.contacts.interfaces` - contain code related to all interfaces. Currently, only a REST interface is hooked up. I also included a placeholder package for a SOAP interface
   
 ##### Other notes
+It was unclear from the documentation how the JSON should be formated for a collection of results. I went with the above conventions keeping each entry in line with the desired format.
 ```
 GET /contacts
 {
@@ -96,7 +97,6 @@ GET /contacts/call-list
    ]
 }
 ```
-It was unclear from the documentation how the JSON should be formated for a collection of results. I went with the above conventions keeping each entry in line with the desired format.
 
 
 ### Running and testing
